@@ -41,4 +41,5 @@ func main() {
 
 	fileStats := getFileStats(filename)
 	log.Println(fileStats.byteCount)
+	log.Println("test")
 }
